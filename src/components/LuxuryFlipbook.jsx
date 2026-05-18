@@ -175,18 +175,21 @@ export default function LuxuryFlipbook() {
               Page {page + 1} / {pages.length}
             </p>
           </div>
-                 <div className="mt-4 flex justify-center">
+<div className="mt-4 flex justify-center">
   <a
     href="/brochure.pdf"
     download
-    className="flex items-center gap-2 px-5 py-2 rounded-md text-white 
-               bg-orange-500 hover:bg-orange-600 
-               shadow-lg transition duration-300"
+    className="relative flex items-center gap-2 px-6 py-2 rounded-md text-white
+               bg-[#f57c00] hover:bg-[#e56f00]
+               shadow-[0_5px_20px_rgba(245,124,0,0.6)]
+               transition duration-300 overflow-hidden"
   >
+    {/* Shine effect */}
+    <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 hover:opacity-100 transition"></span>
+
     Download Brochure
   </a>
 </div>
-
 
         </>
       )}
