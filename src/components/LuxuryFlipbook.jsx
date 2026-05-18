@@ -175,15 +175,18 @@ export default function LuxuryFlipbook() {
               Page {page + 1} / {pages.length}
             </p>
           </div>
-                  <div className="mt-4">
+                 <div className="mt-4 flex justify-center">
   <a
     href="/brochure.pdf"
-    download="Keetronics-Brochure.pdf"
-    className="inline-flex items-center gap-2 px-5 py-2 bg-white/10 hover:bg-white/20 text-white rounded-full backdrop-blur transition"
+    download
+    className="flex items-center gap-2 px-5 py-2 rounded-md text-white 
+               bg-orange-500 hover:bg-orange-600 
+               shadow-lg transition duration-300"
   >
-    Download Brochure (PDF)
+    Download Brochure
   </a>
 </div>
+
 
         </>
       )}
