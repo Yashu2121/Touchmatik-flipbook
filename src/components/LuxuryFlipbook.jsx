@@ -12,11 +12,7 @@ const pages = [
   "/images/H5.png",
   "/images/H6.png",
   "/images/H7.png",
-  "/images/H8.png",
-  "/images/H9.png",
-  "/images/H10.png",
-  "/images/H11.png",
-  "/images/H12.png",
+
 ];
 
 // ✅ PAGE COMPONENT (REALISTIC)
