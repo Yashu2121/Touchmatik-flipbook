@@ -125,7 +125,7 @@ export default function LuxuryFlipbook() {
             <div className="absolute left-1 top-1 w-full h-full bg-black/10 blur-sm rounded-lg"></div>
 
             <HTMLFlipBook
-              width={isMobile ? window.innerWidth * 0.95 : 550}
+              width={isMobile ? window.innerWidth * 0.78: 550}
               height={isMobile ? window.innerHeight * 0.65 : 800}
               size="fixed"
               showCover={true}
